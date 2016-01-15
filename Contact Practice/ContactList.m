@@ -20,7 +20,7 @@
     return self;
 }
 
--(void)printlist {
+-(void)printDetail {
     for (Contact *contacts in self.contactlist) {
         NSLog(@"%@,%@", contacts.name, contacts.email);
     }

@@ -7,6 +7,7 @@
 //
 
 #import "Contact.h"
+#import "ContactList.h"
 
 @implementation Contact
 
@@ -17,10 +18,6 @@
         _email = email;
     }
     return self;
-}
-
-- (void) displayDtail {
-    
 }
 
 @end

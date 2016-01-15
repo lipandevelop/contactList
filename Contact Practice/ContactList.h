@@ -11,7 +11,7 @@
 @interface ContactList : NSObject
 @property (nonatomic, strong)NSMutableArray *contactlist;
 
--(void)printlist;
+-(void)printDetail;
 
 
 
